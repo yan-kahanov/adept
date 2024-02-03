@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/adept/static/css/main.9f41af7b.css",
+    "main.js": "/adept/static/js/main.7f2e6971.js",
+    "index.html": "/adept/index.html",
+    "main.9f41af7b.css.map": "/adept/static/css/main.9f41af7b.css.map",
+    "main.7f2e6971.js.map": "/adept/static/js/main.7f2e6971.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f41af7b.css",
+    "static/js/main.7f2e6971.js"
+  ]
+}
