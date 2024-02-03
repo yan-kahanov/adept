@@ -1,0 +1,49 @@
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: separate;
+}
+table thead th {
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  background: #ededed;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+}
+table thead th:not(:first-child){
+	padding: 5px 15px;
+}
+table tbody td {
+  text-align: left;
+  border: none;
+  font-size: 14px;
+  vertical-align: top;
+}
+table tbody tr:nth-child(even) {
+  background: #f8f8f8;
+}
+table tbody tr:last-child td {
+  border-bottom: 1px solid #ddd;
+}
+table tbody tr.active {
+  background-color: #bbdefb;
+}
+
+table input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+
+table tbody td {
+  height: 40px;
+}
+
+table input[type="text"] {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline-color: #64b5f6;
+  outline-width: 1px;
+  background-color: transparent;
+}

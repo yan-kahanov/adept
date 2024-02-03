@@ -1,7 +1,11 @@
+import CompaniesModule from "src/modules/companies/CompaniesModule";
+import EmployeesModule from "src/modules/employees/EmployeesModule";
+
 function App() {
   return (
-    <div className="App">
-      hello world!
+    <div className="App container">
+       <CompaniesModule />
+        <EmployeesModule />
     </div>
   );
 }
